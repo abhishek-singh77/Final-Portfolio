@@ -3,13 +3,15 @@ import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
+  DiAngularSimple,
+  DiDjango,
   DiReact,
   DiNodejs,
   DiMongodb,
   DiPython,
   DiGit,
 } from "react-icons/di";
-import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
+import { SiTensorflow, SiFirebase } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -21,7 +23,7 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiAngularSimple />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
@@ -33,7 +35,7 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <DiDjango />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTensorflow />
