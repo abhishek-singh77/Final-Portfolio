@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const express = require("express");
 const router = express.Router();
 const rankData = require("../Models/data");
@@ -12,6 +13,7 @@ router.get("/getRanks", (req, res, next) => {
     } else if (!result) {
       return res.json({ status: 422, message: "Document Not Found" });
     } else {
+      // eslint-disable-next-line no-undef
       allRanks = [];
       allRanks.push({ spojRank: result.spojRank });
       allRanks.push({ hackerrank: result.hackerrank });
