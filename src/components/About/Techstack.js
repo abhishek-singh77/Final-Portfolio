@@ -6,7 +6,6 @@ import {
   DiAngularSimple,
   DiDjango,
   DiReact,
-  DiNodejs,
   DiMongodb,
   DiPython,
   DiGit,
