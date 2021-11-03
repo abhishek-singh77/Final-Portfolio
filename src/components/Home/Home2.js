@@ -15,11 +15,11 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            <h1 className="purple" style={{ fontSize: "2.6em" }}>
+              Who am I?
             </h1>
             <p className="home-about-body">
-            I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript. I enjoy having fun with them.
+            I’m India based full stack web developer. <br />I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript. I enjoy having fun with them.
               <br />
               <br />I am fluent in Languages like
               <i>
