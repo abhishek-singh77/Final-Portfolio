@@ -15,11 +15,11 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            <h1 className="purple" style={{ fontSize: "2.6em" }}>
+              Who am I?
             </h1>
             <p className="home-about-body">
-            I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript. I enjoy having fun with them.
+            I’m India based full stack web developer. <br />I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript. I enjoy having fun with them.
               <br />
               <br />I am fluent in Languages like
               <i>
@@ -27,7 +27,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building new{" "}
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
@@ -37,12 +37,12 @@ function Home2() {
               </i>
               <br />
               <br />
-              I always intend to design great looking web apps using
+              I always intend to design great looking web apps using &nbsp;  
               <b className="purple">Node.js, Django</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Frontend libraries
                 </b>
               </i>
               &nbsp; like
