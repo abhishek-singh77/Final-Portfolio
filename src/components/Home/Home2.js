@@ -27,7 +27,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building new{" "}
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
@@ -37,12 +37,12 @@ function Home2() {
               </i>
               <br />
               <br />
-              I always intend to design great looking web apps using
+              I always intend to design great looking web apps using &nbsp;  
               <b className="purple">Node.js, Django</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Frontend libraries
                 </b>
               </i>
               &nbsp; like
