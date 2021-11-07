@@ -14,10 +14,18 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Made with love by Abhishek </h3>
+          <h3>Styled by Abhishek </h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} <a
+                href="https://github.com/soumyajit4419/Portfolio"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                SB
+              </a>
+              </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">

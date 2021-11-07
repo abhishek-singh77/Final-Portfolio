@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
+import emoticon from "../../Assets/Projects/emoticon.PNG";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import capture2 from "../../Assets/Projects/Capture2.PNG";
+import rockpaper from "../../Assets/Projects/rockpaper.PNG"; 
+import calculator from "../../Assets/Projects/Capture.PNG";
+import todo from "../../Assets/Projects/todo.png";
 
 function Projects() {
   return (
@@ -24,21 +24,21 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={capture2}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Landing Page"
+              description="This is a landing page for a instagram account who sells jewelley online using  her instagram account."
+              link="https://github.com/abhishek-singh77/LandingPageJwellery"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={rockpaper}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Rock Paper Game"
+              description="This is rock paper game I developed using Vanilla Js and css for single player. I'll soon add multiplayer plugin into it."
+              link="https://github.com/abhishek-singh77/RockPaperScissor"
             />
           </Col>
 
@@ -47,39 +47,38 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. This is part of freecodecamp.org certification."
+              link="https://codepen.io/abhishek-singh77/pen/oNwLZwW"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={calculator}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Calculator"
+              description="A simple calculator built with react just for the sole purpose of understanding how github pages work and how anyone can deloy their projects on github"
+              link="https://github.com/abhishek-singh77/reactCalcy"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={todo}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="ToDo List"
+              description="This is the frontened clone of todoist website I biuld using react.js. It also has all necessary backend part except for the database connection."
+              link="https://github.com/abhishek-singh77/todolist1"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={emoticon}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Emoticon eye"
+              description="This is a css animated emoticon which follows the position of cursor wherever it goes. I designed it as a part of learnig path for css"
+              link="https://github.com/abhishek-singh77/emoticonEye"
             />
           </Col>
         </Row>
