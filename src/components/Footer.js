@@ -18,12 +18,12 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} <a
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/abhishek-singh77"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                SB
+                Abhi
               </a>
               </h3>
         </Col>

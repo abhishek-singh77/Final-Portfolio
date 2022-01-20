@@ -1,5 +1,7 @@
-Personal Portfolio Website. <br>
+My Personal Portfolio Website. <br>
 Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+
+Reffered from this amazing repository by Somyajit <href="https://github.com/soumyajit4419/Portfolio">
 
 ## 🛠 Installation and Setup Instructions
 
