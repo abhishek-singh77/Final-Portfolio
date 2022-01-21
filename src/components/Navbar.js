@@ -80,7 +80,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://next-blog-seven-self.vercel.app/"
+                href="https://next-blog-abhishek-singh77.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
