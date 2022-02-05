@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.6002801e.chunk.css",
-    "main.js": "/static/js/main.a1adf641.chunk.js",
-    "main.js.map": "/static/js/main.a1adf641.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0cb47a9c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0cb47a9c.js.map",
+    "main.js": "/static/js/main.3bf23bdd.chunk.js",
+    "main.js.map": "/static/js/main.3bf23bdd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b37b8a73.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b37b8a73.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.17b885dc.chunk.js": "/static/js/2.17b885dc.chunk.js",
-    "static/js/2.17b885dc.chunk.js.map": "/static/js/2.17b885dc.chunk.js.map",
-    "static/js/3.eae24763.chunk.js": "/static/js/3.eae24763.chunk.js",
-    "static/js/3.eae24763.chunk.js.map": "/static/js/3.eae24763.chunk.js.map",
+    "static/js/2.a3f2c3e4.chunk.js": "/static/js/2.a3f2c3e4.chunk.js",
+    "static/js/2.a3f2c3e4.chunk.js.map": "/static/js/2.a3f2c3e4.chunk.js.map",
+    "static/js/3.707ea642.chunk.js": "/static/js/3.707ea642.chunk.js",
+    "static/js/3.707ea642.chunk.js.map": "/static/js/3.707ea642.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.6002801e.chunk.css.map": "/static/css/main.6002801e.chunk.css.map",
-    "static/js/2.17b885dc.chunk.js.LICENSE.txt": "/static/js/2.17b885dc.chunk.js.LICENSE.txt",
+    "static/js/2.a3f2c3e4.chunk.js.LICENSE.txt": "/static/js/2.a3f2c3e4.chunk.js.LICENSE.txt",
     "static/media/Avatar.695bddfe.jpeg": "/static/media/Avatar.695bddfe.jpeg",
     "static/media/Capture.0adf9500.PNG": "/static/media/Capture.0adf9500.PNG",
     "static/media/Capture2.6d9b386f.PNG": "/static/media/Capture2.6d9b386f.PNG",
     "static/media/Dev.ffb7d3a5.png": "/static/media/Dev.ffb7d3a5.png",
-    "static/media/Soumyajit-Behera.8ad3d59b.pdf": "/static/media/Soumyajit-Behera.8ad3d59b.pdf",
     "static/media/about.d6d87d30.png": "/static/media/about.d6d87d30.png",
+    "static/media/blogProject.d3f5761a.png": "/static/media/blogProject.d3f5761a.png",
     "static/media/codeEditor.f65bc06a.png": "/static/media/codeEditor.f65bc06a.png",
     "static/media/emoticon.b5aefd4e.PNG": "/static/media/emoticon.b5aefd4e.PNG",
     "static/media/logo.83f0d7fb.png": "/static/media/logo.83f0d7fb.png",
@@ -28,10 +28,10 @@
     "static/media/todo.ae827f4e.png": "/static/media/todo.ae827f4e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0cb47a9c.js",
+    "static/js/runtime-main.b37b8a73.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.17b885dc.chunk.js",
+    "static/js/2.a3f2c3e4.chunk.js",
     "static/css/main.6002801e.chunk.css",
-    "static/js/main.a1adf641.chunk.js"
+    "static/js/main.3bf23bdd.chunk.js"
   ]
 }
