@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Abhishek Singh </span>
             from <span className="purple"> Varanasi, India.</span>
-            <br />I am an CSE student with major in Full Stack Development.
+            <br />I am CSE student with major in Full Stack Development.
             <br />
             <br />
             Apart from coding, I enjoy :)!

@@ -9,6 +9,7 @@ import capture2 from "../../Assets/Projects/Capture2.PNG";
 import rockpaper from "../../Assets/Projects/rockpaper.PNG"; 
 import calculator from "../../Assets/Projects/Capture.PNG";
 import todo from "../../Assets/Projects/todo.png";
+import blogProject from "../../Assets/Projects/blogProject.png"
 
 function Projects() {
   return (
@@ -22,6 +23,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blogProject}
+              isBlog={false}
+              title="Blog Website"
+              description="This is a full stack blog applicatoin built using Next.js and GraphQl."
+              link="https://github.com/abhishek-singh77/next-blog"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={capture2}
